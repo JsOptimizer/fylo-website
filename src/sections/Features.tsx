@@ -3,7 +3,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="w-full h-[90dvh] px-[5%]">
+    <section className="w-full h-[90dvh] ">
       <Navbar />
       <Hero/>
     </section>

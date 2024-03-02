@@ -3,7 +3,7 @@ import React from "react";
 import featureImg from "@/assets/images/illustration-1.svg";
 const Hero = () => {
   return (
-    <section className=" h-full grid md:grid-cols-2  items-center">
+    <section className="px-[10%] py-[5%] h-full grid md:grid-cols-2  items-center">
       <div className="space-y-4">
         <p className="raleway text-5xl text-primary">
           All your files in one secure<br/> location, accessible anywhere.

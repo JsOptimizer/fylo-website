@@ -12,7 +12,7 @@ const Teams = () => {
     height={0}
     className="w-full"
     />
-    <div className="w-full h-full bg-grayishBlue grid grid-cols-2 p-[5%]">
+    <div className="w-full h-full bg-grayishBlue grid grid-cols-2 px-[10%] py-[5%]">
       <FeactureContent/>
       <div>
         <Image

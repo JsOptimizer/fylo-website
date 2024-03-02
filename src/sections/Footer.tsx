@@ -26,8 +26,8 @@ const Footer = () => {
           </ul>
         ))}
         <ul className="flex gap-4 justify-center md:justify-start">
-          {listContactIcon.map((Icon)=>(
-            <li>
+          {listContactIcon.map((Icon,idx)=>(
+            <li key={idx}>
               <Icon/>
             </li>
           ))}

@@ -6,6 +6,7 @@ export default function Home() {
   console.log(process.env.NEXT_PUBLIC_PUBLICAPI_KEY)
   return (
     <main className="">
+       <Navbar />
       <Features />
       <Teams />
       <Singup />

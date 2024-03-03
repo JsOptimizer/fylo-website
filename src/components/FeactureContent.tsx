@@ -2,16 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import avatar from "@/assets/images/avatar-testimonial.jpg";
+import arrowtIcon from '@/assets/images/icon-arrow.svg'
+import quotesIcon from '@/assets/images/icon-quotes.svg'
 
 const FeactureContent = () => {
   return (
-    <section className="space-y-8 p-">
+    <section className=" space-y-4 sm:space-y-8 py-10">
       <div>
-        <p className="raleway text-5xl text-primary">
+        <p className="raleway sm:text-5xl text-primary">
           Stay productive, wherever you are
         </p>
       </div>
-      <div className="space-y-4 text-xl">
+      <div className="space-y-4 text-sm sm:text-xl">
         <p>
           Never let location be an issue when accessing your files. Fylo has you
           <br />
@@ -22,16 +24,20 @@ const FeactureContent = () => {
           for
           <br /> live collaboration. No email attachments required!
         </p>
-        <p className="text-moderateCyan underline">
-          <Link className="" href={""}>
+        
+         <div className="flex">
+         <Link className="text-moderateCyan flex gap-1 sm:text-left border-b-2 border-b-moderateCyan justify-center sm:justify-start " href={""}>
             {" "}
-            See how Fylo works
+            <span>See how Fylo works</span>
+            <Image src={arrowtIcon} alt="" width={30} height={0}/>
           </Link>
-        </p>
+         </div>
+        
       </div>
       <div className="flex">
         <div className="bg-white rounded-lg shadow-md p-8 space-y-4">
-          <p>
+          <p className="text-xs sm:text-sm ">
+          <Image src={quotesIcon} alt="" width={20} height={0}/>
             Fylo has improved our team productivity by
             <br /> an order of magnitude. Since making the
             <br /> switch our team has become a well-oiled
@@ -42,13 +48,13 @@ const FeactureContent = () => {
             <Image
               src={avatar}
               alt="call"
-              width={50}
-              height={50}
-              className="rounded-full"
+              width={0}
+              height={0}
+              className="rounded-full w-6 h-6 sm:w-10 sm:h-10"
             />
             <div>
-              <h4 className="font-bold"> Kyle Burton</h4>
-              <p> Founder & CEO, Huddle</p>
+              <h4 className=" text-xs sm:text-sm font-bold"> Kyle Burton</h4>
+              <p className="text-xs sm:text-sm "> Founder & CEO, Huddle</p>
             </div>
           </div>
         </div>

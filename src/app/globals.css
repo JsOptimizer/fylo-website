@@ -7,11 +7,14 @@
     src:local("Releway"), url("../assets/fonts/Raleway/static/Raleway-Bold.ttf") format("truetype");
     font-weight: bold;
 }
-/* @font-face {
+@font-face {
     font-family:"open sans";
-    src:local("Releway"), url("../assets/fonts/Raleway/static/Raleway-Bold.tt") format("truetype");
+    src:local("Releway"), url("../assets/fonts/Raleway/static/Raleway-Black.ttf") format("truetype");
     font-weight: bold;
-} */
+}
 .raleway{
     font-family: "Raleway";
+}
+.open-sans{
+    font-family: "open sans";
 }

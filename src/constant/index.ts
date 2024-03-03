@@ -1,8 +1,12 @@
 import phone from "@/assets/images/icon-phone.svg";
-import email from "@/assets/images/icon-email.svg"
-import {IoLogoFacebook,IoLogoTwitter,IoLogoInstagram} from "react-icons/io5"
+import email from "@/assets/images/icon-email.svg";
+import {
+  IoLogoFacebook,
+  IoLogoTwitter,
+  IoLogoInstagram,
+} from "react-icons/io5";
 import { IconType } from "react-icons";
-export const listContactWithIcon:{logo:string,label:string}[] = [
+export const listContactWithIcon: { logo: string; label: string }[] = [
   {
     logo: phone,
     label: "Phone: +1-543-123-4567",
@@ -13,12 +17,30 @@ export const listContactWithIcon:{logo:string,label:string}[] = [
   },
 ];
 
-export const listContact:{lists:string[]}[]=[
-    {
-        lists:["About Us","Jobs","Press","Blog"]
-    },
-    {
-        lists:["Contact Us","Terms","Privacy"]
-    }
-]
-export const listContactIcon: IconType[]=[IoLogoFacebook,IoLogoTwitter,IoLogoInstagram]
+export const listContact: { lists: string[] }[] = [
+  {
+    lists: ["About Us", "Jobs", "Press", "Blog"],
+  },
+  {
+    lists: ["Contact Us", "Terms", "Privacy"],
+  },
+];
+export const listContactIcon: IconType[] = [
+  IoLogoFacebook,
+  IoLogoTwitter,
+  IoLogoInstagram,
+];
+export const navList: { label: string; path: string }[] = [
+  {
+    label: "Features",
+    path: "#features",
+  },
+  {
+    label: "Teams",
+    path: "#teams",
+  },
+  {
+    label: "Sign In",
+    path: "#sign-in",
+  },
+];

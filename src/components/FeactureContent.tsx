@@ -14,12 +14,12 @@ const FeactureContent = () => {
         </p>
       </div>
       <div className="space-y-4 text-sm sm:text-xl">
-        <p>
+        <p className="text-sm sm:text-base">
           Never let location be an issue when accessing your files. Fylo has you
           <br />
           covered for all of your file storage needs.
         </p>
-        <p>
+        <p className="text-sm sm:text-base">
           Securely share files and folders with friends, family and colleagues
           for
           <br /> live collaboration. No email attachments required!

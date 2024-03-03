@@ -3,7 +3,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="w-full h-[90dvh] ">
+    <section id="features" className="w-full h-[90dvh] ">
       <Hero/>
     </section>
   );

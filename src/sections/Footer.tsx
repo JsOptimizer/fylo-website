@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/assets/images/logo.svg";
+import logo from "@/assets/images/logo-white.svg";
 import { listContact, listContactIcon, listContactWithIcon } from "@/constant";
 
 const Footer = () => {
   return (
     <section className="px-[10%] py-[5%] bg-primary text-white space-y-8">
       <div className="">
-        <Image className="" src={logo} alt="logo" width={100} height={100} />
+        <Image className="text-white" src={logo} alt="logo" width={100} height={100}  />
       </div>
       <section className="grid  gap-8 md:grid-cols-4">
         <ul className="space-y-4">

@@ -5,7 +5,7 @@ import crewImg from "@/assets/images/illustration-2.svg";
 import { FeactureContent } from "@/components";
 const Teams = () => {
   return (
-    <section className="w-full pt-[5%]">
+    <section id="teams" className="w-full pt-[5%]">
       <div>
         {" "}
         <Image
